@@ -5,7 +5,8 @@ const firstProblem = (arr, n) => {
   if (arr.length > 0 && n) {
     arr.map((element) => {
       if (element % n === 0) {
-        array.push(element);
+        const newElement = element / n;
+        array.push(newElement);
       } else {
         console.log(`${element} is not dividable by ${n}`);
       }
@@ -24,9 +25,10 @@ const firstProblem = (arr, n) => {
   const result = array.map(fact);
 
   const factsArray = factorialNumbers.concat(result);
+  console.log(array);
   console.log("Factorials array: ", factsArray);
   return Math.max(...factsArray);
 };
 
-const LargestNumber = firstProblem([5, 4, 6, 2, 100], 2);
+const LargestNumber = firstProblem([5, 14, 6, 2, 100], 2);
 console.log(LargestNumber);
