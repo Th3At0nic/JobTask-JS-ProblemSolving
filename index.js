@@ -30,5 +30,5 @@ const firstProblem = (arr, n) => {
   return Math.max(...factsArray);
 };
 
-const LargestNumber = firstProblem([5, 14, 6, 2, 100], 2);
+const LargestNumber = firstProblem([5, 4, 6, 2, 10], 2);
 console.log(LargestNumber);

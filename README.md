@@ -5,5 +5,5 @@ Each element in the array will be divided by n. Get each element factorial
 number in the array. Find out the largest number.
 
 Input Format: [1, 4, 7, 16 ] , 4
-
+<br/>
 Output Format: 24
